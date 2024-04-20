@@ -86,7 +86,7 @@ Reg.exe add "HKEY_LOCAL_MACHINE\SOFTWARE\INTEL\Display\igfxcui\MediaKeys" /v "En
 Reg.exe add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\kernel" /v "DistributeTimers" /t REG_DWORD /d "1" /f
 ) >nul 2>&1
 
-echo  1/  Done
+echo  1/20  Done
 timeout /T 3 /NOBREAK >nul
 
 :A2
@@ -2372,7 +2372,7 @@ Reg delete "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\yfgnjmkdjfnmtg\DXGKrnl" 
 Reg delete "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\yfgnjmkdjfnmtg\DXGKrnl" /v "MonitorRefreshLatencyTolerance" /t REG_DWORD /d "0" /f
 ) >nul 2>&1
 
-echo  2/  Done
+echo  2/20  Done
 timeout /T 3 /NOBREAK >nul
 
 :A3
@@ -2408,7 +2408,7 @@ if !TOTAL_MEMORY! GEQ 64000000 (
 )
 ) >nul 2>&1
 
-echo  3/  Done
+echo  3/20  Done
 timeout /T 3 /NOBREAK >nul
 
 :A4
@@ -2470,7 +2470,7 @@ C:\windows\Temp\devmanview.exe /disable "System CMOS/real time clock"
 C:\windows\Temp\devmanview.exe /disable "ACPI Processor Aggregator"
 C:\windows\Temp\devmanview.exe /disable "Microsoft Windows Management Interface for ACPI"
 ) >nul 2>&1
-echo  4/  Done
+echo  4/20  Done
 timeout /T 3 /NOBREAK >nul
 
 :A5
@@ -2815,7 +2815,7 @@ schtasks /Change /TN "Microsoft\Windows\Work Folders\Work Folders Maintenance Wo
 schtasks /Change /TN "Microsoft\Windows\Workplace Join\Automatic-Device-Join" /Disable
 ) >nul 2>&1
 
-echo  5/  Done
+echo  5/20  Done
 timeout /T 3 /NOBREAK >nul
 
 :A6
@@ -2881,7 +2881,7 @@ bcdedit /set advancedoptions false
 bcdedit /set linearaddress57 OptOut
 ) >nul 2>&1
 
-echo  6/  Done
+echo  6/20  Done
 timeout /T 3 /NOBREAK >nul
 
 :A7
@@ -5742,7 +5742,7 @@ Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control\PnP" /v "PollBootPartitionTim
 Reg.exe add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v "ThumbnailLivePreviewHoverTime" /t REG_DWORD /d "1" /f >nul 2>&1
 Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Control" /v "ServicesPipeTimeout" /t REG_DWORD /d "2359296" /f >nul 2>&1
 
-echo  7/  Done
+echo  7/20  Done
 timeout /T 3 /NOBREAK >nul
 
 :A8
@@ -5784,7 +5784,7 @@ Reg.exe add "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explore
 Reg.exe add "HKEY_CURRENT_USER\Control Panel\Desktop" /v "UserPreferencesMask" /t REG_BINARY /d "90,12,03,80" /f
 ) >nul 2>&1
 
-echo  8/  Done
+echo  8/20  Done
 timeout /T 3 /NOBREAK >nul
 
 :A9
@@ -6328,7 +6328,7 @@ Reg.exe add "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explore
 Reg.exe add "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v "ShowTaskViewButton" /t REG_DWORD /d "0" /f >nul 2>&1
 Reg.exe add "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v "MMTaskbarMode" /t REG_DWORD /d "2" /f >nul 2>&1
 
-echo  9/  Done
+echo  9/20  Done
 timeout /T 3 /NOBREAK >nul
 
 :A10
@@ -6453,7 +6453,7 @@ Reg.exe add "HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\OSM\preventedsolut
 Reg.exe add "HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\OSM\preventedsolutiontypes" /v "templatefiles" /t REG_DWORD /d "1" /f
 ) >nul 2>&1
 
-echo  10/  Done
+echo  10/20  Done
 timeout /T 3 /NOBREAK >nul
 
 :A11
@@ -6628,7 +6628,7 @@ Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\mouhid\Parameters" /v "Treat
 Reg.exe add "HKLM\SYSTEM\CurrentControlSet\Services\mouhid\Parameters" /v "TreatAbsoluteAsRelative" /t REG_DWORD /d "0" /f
 ) >nul 2>&1
 
-echo  11/  Done
+echo  11/20  Done
 timeout /T 3 /NOBREAK >nul
 
 :A13
@@ -6642,7 +6642,7 @@ if exist "%fileToDelete%" (
     timeout /T 1 /NOBREAK  >nul 2>&1
 )
 
-echo  12/  Done
+echo  12/20  Done
 timeout /T 3 /NOBREAK >nul
 
 :A14
@@ -6839,7 +6839,7 @@ Reg.exe add "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Session Manager\ker
 Reg.exe add "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Session Manager\kernel" /v "XMMIZeroingEnable" /t REG_DWORD /d "0" /f
 ) >nul 2>&1
 
-echo  13/  Done
+echo  13/20  Done
 timeout /T 3 /NOBREAK >nul
 
 :A15
@@ -6861,7 +6861,7 @@ Reg.exe add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\%%i\Device Paramet
 Reg.exe add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\%%i\Device Parameters" /v "SelectiveSuspendOn" /t REG_DWORD /d "0" /f
 ) >nul 2>&1
 
-echo  14/  Done
+echo  14/20  Done
 timeout /T 3 /NOBREAK >nul
 
 :A16
@@ -6872,7 +6872,7 @@ Reg.exe add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Dis
 Reg.exe add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\DiskDiagnostics\IgnoreList" /f
 ) >nul 2>&1
 
-echo  15/  Done
+echo  15/20  Done
 timeout /T 3 /NOBREAK >nul
 
 :A17
@@ -6891,7 +6891,7 @@ net start wuauserv
 net start UsoSvc
 ) >nul 2>&1
 
-echo  16/  Done
+echo  16/20  Done
 timeout /T 3 /NOBREAK >nul
 
 :A18
@@ -6928,7 +6928,7 @@ reg.exe add "HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Enum\%%a\Device Parameters\
 )
 ) >nul 2>&1
 
-echo  17/  Done
+echo  17/20  Done
 timeout /T 3 /NOBREAK >nul
 
 :A19
@@ -6936,7 +6936,7 @@ timeout /T 3 /NOBREAK >nul
 for /f "tokens=*" %%s in ('reg query "HKEY_LOCAL_MACHINE\System\CurrentControlSet\Enum" /S /F "StorPort" ^| findstr /e "StorPort"') do Reg.exe add "%%s" /v "EnableIdlePowerManagement" /t REG_DWORD /d "0" /f
 ) >nul 2>&1
 
-echo  18/  Done
+echo  18/20  Done
 timeout /T 3 /NOBREAK >nul
 
 :A20
@@ -6950,7 +6950,7 @@ FOR /F "eol=E" %%a in ('REG QUERY "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\S
 	)
 ) >nul 2>&1
 
-echo  19/  Done
+echo  19/20  Done
 timeout /T 3 /NOBREAK >nul
 
 
@@ -8472,7 +8472,7 @@ PowerShell -ExecutionPolicy Unrestricted -Command "$domain ='mucp.api.account.mi
 :: Add hosts entries for query.prod.cms.rt.microsoft.com
 PowerShell -ExecutionPolicy Unrestricted -Command "$domain ='query.prod.cms.rt.microsoft.com'; $hostsFilePath = "^""$env:WINDIR\System32\drivers\etc\hosts"^""; $comment = "^""managed by privacy.sexy"^""; $hostsFileEncoding = [Microsoft.PowerShell.Commands.FileSystemCmdletProviderEncoding]::Utf8; $blockingHostsEntries = @(; @{ AddressType = "^""IPv4"^"";  IPAddress = '0.0.0.0'; }; @{ AddressType = "^""IPv6"^"";  IPAddress = '::1'; }; ); try {; $isHostsFilePresent = Test-Path -Path $hostsFilePath -PathType Leaf -ErrorAction Stop; } catch {; Write-Error "^""Failed to check hosts file existence. Error: $_"^""; exit 1; }; if (-Not $isHostsFilePresent) {; Write-Output "^""Creating a new hosts file at $hostsFilePath."^""; try {; New-Item -Path $hostsFilePath -ItemType File -Force -ErrorAction Stop | Out-Null; Write-Output "^""Successfully created the hosts file."^""; } catch {; Write-Error "^""Failed to create the hosts file. Error: $_"^""; exit 1; }; }; foreach ($blockingEntry in $blockingHostsEntries) {; Write-Output "^""Processing addition for $($blockingEntry.AddressType) entry."^""; try {; $hostsFileContents = Get-Content -Path "^""$hostsFilePath"^"" -Raw -Encoding $hostsFileEncoding -ErrorAction Stop; } catch {; Write-Error "^""Failed to read the hosts file. Error: $_"^""; continue; }; $hostsEntryLine = "^""$($blockingEntry.IPAddress)`t$domain $([char]35) $comment"^""; if ((-Not [String]::IsNullOrWhiteSpace($hostsFileContents)) -And ($hostsFileContents.Contains($hostsEntryLine))) {; Write-Output 'Skipping, entry already exists.'; continue; }; try {; Add-Content -Path $hostsFilePath -Value $hostsEntryLine -Encoding $hostsFileEncoding -ErrorAction Stop; Write-Output 'Successfully added the entry.'; } catch {; Write-Error "^""Failed to add the entry. Error: $_"^""; continue; }; }" >nul 2>&1
 
-echo  20/  Done
+echo  20/20  Done
 timeout /T 3 /NOBREAK >nul
 
 echo  Press Any Key
