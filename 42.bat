@@ -6477,26 +6477,6 @@ Reg.exe add "HKEY_CURRENT_USER\Control Panel\Accessibility\MouseKeys" /v "Maximu
 Reg.exe add "HKEY_CURRENT_USER\Control Panel\Accessibility\MouseKeys" /v "TimeToMaximumSpeed" /t REG_SZ /d "3000" /f
 Reg.exe add "HKEY_CURRENT_USER\Control Panel\Accessibility\StickyKeys" /v "Flags" /t REG_SZ /d "26" /f
 Reg.exe add "HKEY_CURRENT_USER\Control Panel\Accessibility\ToggleKeys" /v "Flags" /t REG_SZ /d "58" /f
-Reg.exe add "HKEY_CURRENT_USER\Control Panel\Cursors" /v "AppStarting" /t REG_EXPAND_SZ /d "%SYSTEMROOT%\Cursors\windows-11-dark-theme\working.ani" /f
-Reg.exe add "HKEY_CURRENT_USER\Control Panel\Cursors" /v "Arrow" /t REG_EXPAND_SZ /d "%SYSTEMROOT%\Cursors\windows-11-dark-theme\Windows 11 dark.cur" /f
-Reg.exe add "HKEY_CURRENT_USER\Control Panel\Cursors" /v "ContactVisualization" /t REG_DWORD /d "0" /f
-Reg.exe add "HKEY_CURRENT_USER\Control Panel\Cursors" /v "Crosshair" /t REG_EXPAND_SZ /d "%SYSTEMROOT%\Cursors\windows-11-dark-theme\precision.cur" /f
-Reg.exe add "HKEY_CURRENT_USER\Control Panel\Cursors" /v "GestureVisualization" /t REG_DWORD /d "0" /f
-Reg.exe add "HKEY_CURRENT_USER\Control Panel\Cursors" /v "Hand" /t REG_EXPAND_SZ /d "C:\windows\Cursors\windows-11-dark-theme\link.cur" /f
-Reg.exe add "HKEY_CURRENT_USER\Control Panel\Cursors" /v "Help" /t REG_EXPAND_SZ /d "C:\windows\Cursors\windows-11-dark-theme\help.cur" /f
-Reg.exe add "HKEY_CURRENT_USER\Control Panel\Cursors" /v "IBeam" /t REG_EXPAND_SZ /d "C:\windows\Cursors\windows-11-dark-theme\beam.cur" /f
-Reg.exe add "HKEY_CURRENT_USER\Control Panel\Cursors" /v "No" /t REG_EXPAND_SZ /d "C:\windows\Cursors\windows-11-dark-theme\unavailable.cur" /f
-Reg.exe add "HKEY_CURRENT_USER\Control Panel\Cursors" /v "NWPen" /t REG_EXPAND_SZ /d "C:\windows\Cursors\windows-11-dark-theme\handwriting.cur" /f
-Reg.exe add "HKEY_CURRENT_USER\Control Panel\Cursors" /v "Scheme Source" /t REG_DWORD /d "0" /f
-Reg.exe add "HKEY_CURRENT_USER\Control Panel\Cursors" /v "Person" /t REG_EXPAND_SZ /d "C:\windows\Cursors\windows-11-dark-theme\person.cur" /f
-Reg.exe add "HKEY_CURRENT_USER\Control Panel\Cursors" /v "Pin" /t REG_EXPAND_SZ /d "C:\windows\Cursors\windows-11-dark-theme\pin.cur" /f
-Reg.exe add "HKEY_CURRENT_USER\Control Panel\Cursors" /v "SizeAll" /t REG_EXPAND_SZ /d "C:\windows\Cursors\windows-11-dark-theme\move.cur" /f
-Reg.exe add "HKEY_CURRENT_USER\Control Panel\Cursors" /v "SizeNESW" /t REG_EXPAND_SZ /d "C:\windows\Cursors\windows-11-dark-theme\dgn2.cur" /f
-Reg.exe add "HKEY_CURRENT_USER\Control Panel\Cursors" /v "SizeNS" /t REG_EXPAND_SZ /d "C:\windows\Cursors\windows-11-dark-theme\vert.cur" /f
-Reg.exe add "HKEY_CURRENT_USER\Control Panel\Cursors" /v "SizeNWSE" /t REG_EXPAND_SZ /d "C:\windows\Cursors\windows-11-dark-theme\dgn1.cur" /f
-Reg.exe add "HKEY_CURRENT_USER\Control Panel\Cursors" /v "SizeWE" /t REG_EXPAND_SZ /d "C:\windows\Cursors\windows-11-dark-theme\horz.cur" /f
-Reg.exe add "HKEY_CURRENT_USER\Control Panel\Cursors" /v "UpArrow" /t REG_EXPAND_SZ /d "C:\windows\Cursors\windows-11-dark-theme\alternate.cur" /f
-Reg.exe add "HKEY_CURRENT_USER\Control Panel\Cursors" /v "Wait" /t REG_EXPAND_SZ /d "C:\windows\Cursors\windows-11-dark-theme\busy.ani" /f
 Reg.exe add "HKEY_CURRENT_USER\Control Panel\Desktop" /v "KeyboardDelay" /t REG_SZ /d "0" /f
 Reg.exe add "HKEY_CURRENT_USER\Control Panel\Desktop" /v "MouseSensitivity" /t REG_SZ /d "10" /f
 Reg.exe add "HKEY_CURRENT_USER\Control Panel\Desktop" /v "MouseSpeed" /t REG_SZ /d "0" /f
